@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const session = require('express-session');
 const passport = require('passport');
-const GoogleStrategy = require('passport-google-oauth');
+const GoogleStrategy = require('passport-google-oauth').OAuth2Strategy;
 const dotenv = require('dotenv');
 const URL = "http://localhost:3000/auth/google/callback";
 
