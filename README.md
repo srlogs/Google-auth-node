@@ -1,7 +1,7 @@
 # Google oAuth 
 
 
-##oAuth 2.0
+## oAuth 2.0
 
 The Google OAuth 2.0 authentication strategy authenticates users using a Google account and OAuth 2.0 tokens. The strategy requires a `verify` callback, which accepts these credentials and calls `done` providing a user, as well as `options` specifying a client ID, client secret, and callback URL.
 
